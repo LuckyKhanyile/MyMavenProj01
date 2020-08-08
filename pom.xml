@@ -11,4 +11,13 @@
         <scala.version>2.11.7</scala.version>
         <maven-scala-plugin.version>2.7.2</maven-scala-plugin.version>
     </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.scopt/scopt -->
+        <dependency>
+            <groupId>com.github.scopt</groupId>
+            <artifactId>scopt_2.11</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+    </dependencies>
 </project>
